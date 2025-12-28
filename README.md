@@ -5,10 +5,10 @@
 ### Getting started
 ```bash
 git clone https://github.com/kre1ses/clickhouse_usage_example.git
-cd folder_name
+cd clickhouse_usage_example
 ```
 
-0. Place your CSV file to "./data/" folder
+0. Place your CSV file or dowload train.csv from here (https://www.kaggle.com/competitions/teta-ml-1-2025/data?select=train.csv) to "./data/" folder
 
 1. Install requirements:
 ```bash
@@ -24,3 +24,5 @@ docker-compose up -d
 ```bash
 .\run_all.ps1
 ```
+
+4. Result will be locally saved in result.csv
